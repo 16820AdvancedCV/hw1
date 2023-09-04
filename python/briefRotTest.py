@@ -7,18 +7,20 @@ from opts import get_opts
 
 def rotTest(opts):
 
-    #Read the image and convert to grayscale, if necessary
+    # TODO: Read the image and convert to grayscale, if necessary
+
     for i in range(36):
 
-        #Rotate Image
-        #Compute features, descriptors and Match features
+        # TODO: Rotate Image
+
+        # TODO: Compute features, descriptors and Match features
     
-    #Update histogram
+        # TODO: Update histogram
 
     pass 
 
 
-    #Display histogram
+    # TODO: Display histogram
 
 
 if __name__ == "__main__":

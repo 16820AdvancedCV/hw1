@@ -4,7 +4,7 @@ import cv2
 
 def computeH(x1, x2):
     #Q2.2.1
-    #Compute the homography between two sets of points
+    # TODO: Compute the homography between two sets of points
 
 
 
@@ -14,25 +14,25 @@ def computeH(x1, x2):
 
 def computeH_norm(x1, x2):
     #Q2.2.2
-    #Compute the centroid of the points
+    # TODO: Compute the centroid of the points
 
 
-    #Shift the origin of the points to the centroid
+    # TODO: Shift the origin of the points to the centroid
 
 
-    #Normalize the points so that the largest distance from the origin is equal to sqrt(2)
+    # TODO: Normalize the points so that the largest distance from the origin is equal to sqrt(2)
 
 
-    #Similarity transform 1
+    # TODO: Similarity transform 1
 
 
-    #Similarity transform 2
+    # TODO: Similarity transform 2
 
 
-    #Compute homography
+    # TODO: Compute homography
 
 
-    #Denormalization
+    # TODO: Denormalization
     
 
     return H2to1
@@ -63,13 +63,13 @@ def compositeH(H2to1, template, img):
     #For warping the template to the image, we need to invert it.
     
 
-    #Create mask of same size as template
+    # TODO: Create mask of same size as template
 
-    #Warp mask by appropriate homography
+    # TODO: Warp mask by appropriate homography
 
-    #Warp template by appropriate homography
+    # TODO: Warp template by appropriate homography
 
-    #Use mask to combine the warped template and the image
+    # TODO: Use mask to combine the warped template and the image
     
     return composite_img
 
